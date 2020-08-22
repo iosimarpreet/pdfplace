@@ -1,9 +1,9 @@
 const fs = require("fs");
 const AWS = require("aws-sdk");
 
-const BUCKET_NAME = "pdf-place";
-const IAM_USER_KEY = "AKIA3JWUGIB5YJFT5KF3";
-const IAM_USER_SECRET = "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";
+const BUCKET_NAME = "";
+const IAM_USER_KEY = "";
+const IAM_USER_SECRET = "";
 
 const s3bucket = new AWS.S3({
   accessKeyId: IAM_USER_KEY,
